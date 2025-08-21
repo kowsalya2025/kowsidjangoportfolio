@@ -118,6 +118,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / "portfolio" / "static"]
+STATIC_ROOT = BASE_DIR / "staticfiles" 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Default primary key field type
@@ -136,3 +137,4 @@ EMAIL_HOST_USER = "kowsalyacse1992@gmail.com"
 EMAIL_HOST_PASSWORD = "mlju nabr nede unpx"
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
